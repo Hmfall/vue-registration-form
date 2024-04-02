@@ -1,6 +1,6 @@
 # Форма регистрации
 
-Демо: https://hmfall.github.io/vue-registration-form/,
+Демо: https://hmfall.github.io/vue-registration-form/
 
 
 ## Запуск проекта
