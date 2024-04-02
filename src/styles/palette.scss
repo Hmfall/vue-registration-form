@@ -1,0 +1,88 @@
+html {
+   --primary: var(--primary-500);
+   --on-primary: var(--default-100);
+   --primary-container: var(--primary-300);
+   --on-primary-container: var(--default-100);
+
+   --secondary: var(--secondary-500);
+   --on-secondary: var(--default-100);
+   --secondary-container: var(--primary-300);
+   --on-secondary-container: var(--default-100);
+
+   --surface: var(--surface-200);
+   --on-surface: var(--default-800);
+   --on-surface-variant: var(--surface-500);
+   --surface-container-lowest: var(--surface-100);
+   --surface-container-low: var(--surface-200);
+   --surface-container: var(--surface-50);
+   --surface-container-high: var(--surface-800);
+   --surface-container-highest: var(--surface-900);
+
+   --outline: var(--surface-300);
+   --on-outline: var(--default-800);
+   --outline-variant: var(--surface-container);
+   --on-outline-variant: var(--default-100);
+
+   --error: var(--error-500);
+   --on-error: var(--white);
+   --error-container: var(--error-400);
+   --on-error-container: var(--white);
+
+   --transparent: #FFFFFF00;
+
+   --default-50: #FFFFFF;
+   --default-100: #e2e2e2;
+   --default-200: #f4f5f6;
+   --default-300: #00000029;
+   --default-400: #999999;
+   --default-500: #7f7f7f;
+   --default-600: #666666;
+   --default-700: #4c4c4c;
+   --default-800: #31373b;
+   --default-900: #000000;
+
+   --primary-50: #E8EAF6;
+   --primary-100: #C5CAE9;
+   --primary-200: #9FA8DA;
+   --primary-300: #7986CB;
+   --primary-400: #5C6BC0;
+   --primary-500: #3F51B5;
+   --primary-600: #3949AB;
+   --primary-700: #303F9F;
+   --primary-800: #283593;
+   --primary-900: #1A237E;
+
+   --secondary-50: #EDE7F6;
+   --secondary-100: #D1C4E9;
+   --secondary-200: #B39DDB;
+   --secondary-300: #9575CD;
+   --secondary-400: #7E57C2;
+   --secondary-500: #673AB7;
+   --secondary-600: #5E35B1;
+   --secondary-700: #512DA8;
+   --secondary-800: #4527A0;
+   --secondary-900: #311B92;
+
+   --surface-50: var(--default-50);
+   --surface-100: var(--default-100);
+   --surface-200: var(--default-200);
+   --surface-300: var(--default-300);
+   --surface-400: var(--default-400);
+   --surface-500: var(--default-500);
+   --surface-600: var(--default-600);
+   --surface-700: var(--default-700);
+   --surface-800: var(--default-800);
+   --surface-900: var(--default-900);
+
+   --error-50: #FFEBEE;
+   --error-100: #FFCDD2;
+   --error-200: #EF9A9A;
+   --error-300: #E57373;
+   --error-400: #EF5350;
+   --error-500: #F44336;
+   --error-600: #E53935;
+   --error-700: #D32F2F;
+   --error-800: #C62828;
+   --error-900: #B71C1C;
+}
+

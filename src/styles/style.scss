@@ -1,0 +1,41 @@
+@use "sass:math";
+@import "palette";
+@import "null";
+@import "palette";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+   font-size: $font-m;
+   background: var(--surface);
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.main {
+   flex: 1 1 auto;
+}
+
+a, span, p {
+   transition: color 0.15s ease;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+.disable-select {
+   user-select: none;
+}
+
+.container {
+   height: 100%;
+   max-width: $containerWidth + px;
+   margin: 0 auto;
+   padding: 0 math.div($containerPadding, 2) + px;
+}
